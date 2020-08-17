@@ -2,6 +2,7 @@ from distutils.core import setup
 from os import path
 
 long_description=str()
+ld_type ='text/markdown'
 
 this_directory = path.abspath(path.dirname(__file__))
 with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
@@ -14,7 +15,7 @@ setup(
   license='MIT',
   description = 'Yet Another Crawler Package. A simple directory crawler. You can use it by a generator or by creating an instance',
   long_description=long_description,
-  long_description_content_type='text/markdown',
+  long_description_content_type=ld_type,
   author = 'Ada BERK',
   author_email = 'adaberk.kth@gmail.com',
   url='https://github.com/visualcoders/YACP',
