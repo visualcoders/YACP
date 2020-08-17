@@ -10,7 +10,7 @@ setup(
   author = 'Ada BERK',
   author_email = 'adaberk.kth@gmail.com',
   url='https://github.com/visualcoders/YACP',
-  download_url='https://github.com/visualcoders/YACP/archive/v0.1.tar.gz',
+  download_url='https://github.com/visualcoders/YACP/archive/0.2.tar.gz',
   keywords = ['Crawling', 'Directory', 'Library', 'Package', 'Simple', 'Generator', 'Context Manager', 'Variable', 'Helper'],  
   classifiers=[
     'Development Status :: 4 - Beta',      
