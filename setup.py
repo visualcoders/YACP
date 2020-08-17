@@ -1,12 +1,4 @@
 from distutils.core import setup
-from os import path
-
-long_description=str()
-ld_type ='text/markdown'
-
-this_directory = path.abspath(path.dirname(__file__))
-with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
-    long_description = f.read()
 
 setup(
   name = 'yacp',
@@ -14,8 +6,7 @@ setup(
   version = '0.1',
   license='MIT',
   description = 'Yet Another Crawler Package. A simple directory crawler. You can use it by a generator or by creating an instance',
-  long_description=long_description,
-  long_description_content_type=ld_type,
+  long_description="A directory crawler based on generators. Using generators slow down the process a bit, but fixes memory issues with that way you can crawl into large files",
   author = 'Ada BERK',
   author_email = 'adaberk.kth@gmail.com',
   url='https://github.com/visualcoders/YACP',
